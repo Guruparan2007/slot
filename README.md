@@ -27,123 +27,101 @@ Execute the program using runserver command.
 
 ```
 <html>
-    <br>
-    <center>
-        <img src="/static/logo.png" alt="LOGO" height="200" width="800"> 
-    </center>
-    <caption><font color="black" size="5"><b>SLOT TIMETABLE</b></font></caption>
-    <br>
-    <body ALIGN="CENTER">
-    <table BORDER="2" CELLPADDING="20" CELLSPACING="5" align="CENTER" BGCOLOR="BLACK">
-        <caption><font color="white" size="5"><b>TIMETABLE</b></font></caption>
-        <tr bgcolor="black">
-            <th><font COLOR="white" FACE="CURSIVE">DAY/TIME</font></th>
-            <th><font COLOR="white" FACE="CURSIVE">8-10</font></th>
-            <th><font COLOR="white" FACE="CURSIVE">10-12</font></th>
-            <th><font COLOR="white" FACE="CURSIVE">LUNCH</font></th>
-            <th><font COLOR="white" FACE="CURSIVE">1-3</font></th>
-            <th><font COLOR="white" FACE="CURSIVE">3-5</font></th>
-        </tr>
-
-        <tr>
-            <th bgcolor="black"><font color="white">MONDAY</font></th>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-            <td bgcolor="gray"><font color="white">Python Programming</font></td>
-            <td bgcolor="gray"><font color="white">-</font></td>
-            <td bgcolor="gray"><font color="white">Communicative English</font></td>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-        </tr>
-
-        <tr>
-            <th bgcolor="black"><font color="white">TUESDAY</font></th>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-            <td bgcolor="gray"><font color="white">Principles of Chemistry</font></td>
-            <td bgcolor="gray"><font color="white">-</font></td>
-            <td bgcolor="gray"><font color="white">Operating System</font></td>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-        </tr>
-
-        <tr>
-            <th bgcolor="black"><font color="white">WEDNESDAY</font></th>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-            <td bgcolor="gray"><font color="white">Fundamentals of Web Development</font></td>
-            <td bgcolor="gray"><font color="white">-</font></td>
-            <td bgcolor="gray"><font color="white">Mentor Meet</font></td>
-            <td bgcolor="gray"><font color="white">Operating System</font></td>
-        </tr>
-
-        <tr>
-            <th bgcolor="black"><font color="white">THURSDAY</font></th>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-            <td bgcolor="gray"><font color="white">-</font></td>
-            <td bgcolor="gray"><font color="white">Principles of Chemistry</font></td>
-            <td bgcolor="gray"><font color="white">Probability and Queuing Models</font></td>
-        </tr>
-
-        <tr>
-            <th bgcolor="black"><font color="white">FRIDAY</font></th>
-            <td bgcolor="gray"><font color="white">Free Period</font></td>
-            <td bgcolor="gray"><font color="white">Communicative English</font></td>
-            <td bgcolor="gray"><font color="white">-</font></td>
-            <td bgcolor="gray"><font color="white">Python Programming</font></td>
-            <td bgcolor="gray"><font color="white">Fundamentals of Web Development</font></td>
-        </tr>
-
-        <tr>
-            <th bgcolor="black"><font color="white">SATURDAY</font></th>
-            <td bgcolor="gray"><font color="white">Principles of Chemistry</font></td>
-            <td bgcolor="gray"><font color="white">Python Programming</font></td>
-            <td bgcolor="gray"><font color="white">-</font></td>
-            <td bgcolor="gray"><font color="white">Python Programming</font></td>
-            <td bgcolor="gray"><font color="white">Probability and Queuing Models</font></td>
-        </tr>
-    </table>
-    </body>
+<head>
+<title> Course Schedule </title>
+</head>
+<body>
+<img src="logo.jpg" height="100" width="540">
+<br>
+<table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
+<caption><b>SCHEDULE OF ALL COURSES</b></caption>
+<tr align="center">
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="yellow">Monday</th>
+<th bgcolor="yellow">Tuesday</th>
+<th bgcolor="yellow">Wednesday</th>
+<th bgcolor="yellow">Thursday</th>
+<th bgcolor="yellow">Friday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td >C PROGRAMMING</td>
+<td>COMMUNICATIVE ENGLISH</td>
+<td>PHYSICS </td>
+<td>NUMERICAL METHODS</td>
+<td>ADVANCED C PROGRAMMING</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>FREE SLOT</td>
+<td> FUNDAMENTALS OF WEB </td>
+<td>PRINCIPLES OF CHEMISTRY</td>
+<td>FREE SLOT</td>
+<td>NUMERICAL METHODS</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="5" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td >FREE SLOT </td>
+<td>FREE SLOT</td>
+<td>COMMUNICATIVE ENGLISH</td>
+<td>FUNDAMENTALS OF WEB</td>
+<td>SOFT SKILLS</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td>NUMERICAL METHODS</td>
+<td>FREE SLOT</td>
+<td>FUNDAMENTALS OF WEB</td>
+<td>FPHYSICS</td>
+<td>PRINCIPLES OF CHEMISTRY</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="4" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
+<td>FUNDAMENTALS OF WEB (FWAD)</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19AI304</td>
+<td>C PROGRAMMING (C PROGRAM)</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19PH325</td>
+<td> PHYSICS (PHY)</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19CY205</td>
+<td>PRINCIPLES OF CHEMISTRY (CHE)</td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19MA211</td>
+<td>NUMERICAL METHODS (MAT)</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19EY701</td>
+<td>SOFT SKILLS (SS)</td>
+</tr>
+</table>
+</body>
 </html>
 
-<html>
-    <body ALIGN="CENTER">
-        <table BORDER="2" CELLPADDING="20" CELLSPACING="5" align="CENTER" BGCOLOR="WHITE">
-            <caption><font color="black" size="5"><b>SUBJECT DETAILS</b></font></caption>
-            <tr bgcolor="white">
-                <th><font color="black" FACE="CURSIVE">S.No</font></th>
-                <th><font color="black" FACE="CURSIVE">Subject Code</font></th>
-                <th><font color="black" FACE="CURSIVE">Subject Name</font></th>
-            </tr>
-            <tr bgcolor="white">
-                <td><font color="black">1</font></td>
-                <td><font color="black">20AI303</font></td>
-                <td><font color="black">Python Programming</font></td>
-            </tr>
-            <tr bgcolor="white">
-                <td><font color="black">2</font></td>
-                <td><font color="black">19AI404</font></td>
-                <td><font color="black">Fundamentals of Web Development</font></td>
-            </tr>
-            <tr bgcolor="white">
-                <td><font color="black">3</font></td>
-                <td><font color="black">19CY510</font></td>
-                <td><font color="black">Principles of Chemistry</font></td>
-            </tr>
-            <tr bgcolor="white">
-                <td><font color="black">4</font></td>
-                <td><font color="black">19AI304</font></td>
-                <td><font color="black">Operating System</font></td>
-            </tr>
-            <tr bgcolor="white">
-                <td><font color="black">5</font></td>
-                <td><font color="black">19MA211</font></td>
-                <td><font color="black">Probability and Queuing Models</font></td>
-            </tr>
-            <tr bgcolor="white">
-                <td><font color="black">6</font></td>
-                <td><font color="black">19CY516</font></td>
-                <td><font color="black">Communicative English</font></td>
-            </tr>
-        </table>
-    </body>
-</html>
+
 ```
 
 
@@ -155,7 +133,8 @@ REG NO: 212224220030
 
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/6b3d9d0d-ddd7-46c3-91b7-19509d872b86)
+![Screenshot 2025-06-09 132426](https://github.com/user-attachments/assets/95f74dd6-3fa3-4af8-bbe6-a6cb560ecd84)
+
 
 
 ## RESULT
